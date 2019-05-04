@@ -39,6 +39,9 @@ https://github.com/twintproject/twint
 - Photon =>
 https://github.com/s0md3v/Photon
 - Keytap =>
+https://github.com/ggerganov/kbd-audio
+- Exiftool =>
+https://github.com/exiftool/exiftool
 
 # Hardware
 Here is a example of the hardware that I've used. Feel free to choose them according to your specific needs (dimension, more powerfull equipment...):
