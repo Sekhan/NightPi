@@ -28,6 +28,18 @@ and `Get HTML files first`
 
 To learn how to use it, I strongly recommand to have a look on the website : https://www.httrack.com/html/index.html
 
+## Extra tools
+Some interesting tools to perform OSINT ("Open Source Intelligence") and radio exploration has been added :
+- Sherlock =>
+https://github.com/TheYahya/sherlock
+- GQRX =>
+https://github.com/csete/gqrx
+- Twint =>
+https://github.com/twintproject/twint
+- Photon =>
+https://github.com/s0md3v/Photon
+- Keytap =>
+
 # Hardware
 Here is a example of the hardware that I've used. Feel free to choose them according to your specific needs (dimension, more powerfull equipment...):
 
