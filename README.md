@@ -30,19 +30,12 @@ To learn how to use it, I strongly recommand to have a look on the website : htt
 
 ## Extra tools
 Some interesting tools to perform OSINT ("Open Source Intelligence") and radio exploration has been added :
-- Sherlock =>
-https://github.com/TheYahya/sherlock
-- GQRX =>
-https://github.com/csete/gqrx
-- Twint =>
-https://github.com/twintproject/twint
-- Photon =>
-https://github.com/s0md3v/Photon
-- Keytap =>
-https://github.com/ggerganov/kbd-audio
-- Exiftool =>
-https://github.com/exiftool/exiftool
-
+- <a href="https://github.com/TheYahya/sherlock">Sherlock </a> => A command-line tool that is used to scan many social network (like Facebook, Twitter, Tinder...) to find a user's account. All requests can be made over TOR.
+- <a href="https://github.com/csete/gqrx">GQRX </a> => A software-defined radio that allow you to demodulate AM, FM and SSB and is compatible with many hardware (RTL-SDR, HackRF, BladeFR...).
+- <a href="https://github.com/twintproject/twint">Twint </a> => This advanced Twitter OSINT tool allow you to scrap a user's Tweet, followers... without any API required.
+- <a href="https://github.com/s0md3v/Photon">Photon </a> => A command-line tool that allow you to extract data of a website (subdomain, picture, email adress...).
+- <a href="https://github.com/ggerganov/kbd-audio">Keytap </a> => Theses experimental tools can be used for analyzing mechanical keyboard input with microphone capture in order to predict the content of a written text.
+- <a href="https://github.com/exiftool/exiftool">Exiftool </a> => A command-line tool that is used to analyze, modify and erase metadata in a wide variety of file (supported format include JPEG, PNG, DOC, MP4...).
 # Hardware
 Here is a example of the hardware that I've used. Feel free to choose them according to your specific needs (dimension, more powerfull equipment...):
 
