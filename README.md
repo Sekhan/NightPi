@@ -38,7 +38,8 @@ Some interesting tools to perform OSINT and radio exploration has been added :
 - <a href="https://github.com/exiftool/exiftool">Exiftool </a> => A command-line tool that is used to analyze, modify and erase metadata in a wide variety of file (supported format include JPEG, PNG, DOC, MP4...).
 
 ## Enhanced security browser
-Due to incompatibility of Tor Browser with Raspberry's architecture (ARM), a possible alternative has been to install Mozilla Firefox and drastically renforced its security.
+Due to incompatibility of Tor Browser with Raspberry's architecture (ARM), a possible alternative has been to install Mozilla Firefox (ERS) and drastically renforced its security. The following open-source add-on has been added : <a href="https://addons.mozilla.org/fr/firefox/addon/ublock-origin/">uBlock Origin</a>, <a href="https://www.eff.org/privacybadger">Privacy Badger</a>, <a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a>, <a href="https://addons.mozilla.org/fr/firefox/addon/cookie-autodelete/">Cookie Autodelete</a>, <a href="https://decentraleyes.org/">Decentralised</a> and <a href="https://addons.mozilla.org/fr/firefox/addon/noscript/">Noscript</a>.
+
 # Hardware
 Here is a example of the hardware that I've used. Feel free to choose them according to your specific needs (dimension, more powerfull equipment...):
 
