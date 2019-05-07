@@ -38,7 +38,25 @@ Some interesting tools to perform OSINT and radio exploration has been added :
 - <a href="https://github.com/exiftool/exiftool">Exiftool </a> => A command-line tool that is used to analyze, modify and erase metadata in a wide variety of file (supported format include JPEG, PNG, DOC, MP4...).
 
 ## Enhanced security browser
-Due to incompatibility of Tor Browser with Raspberry's architecture (ARM), a possible alternative has been to install Mozilla Firefox (ERS) and drastically renforced its security. The following open-source add-on has been added : <a href="https://addons.mozilla.org/fr/firefox/addon/ublock-origin/">uBlock Origin</a>, <a href="https://www.eff.org/privacybadger">Privacy Badger</a>, <a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a>, <a href="https://addons.mozilla.org/fr/firefox/addon/cookie-autodelete/">Cookie Autodelete</a>, <a href="https://decentraleyes.org/">Decentralised</a> and <a href="https://addons.mozilla.org/fr/firefox/addon/noscript/">Noscript</a>.
+Due to incompatibility of Tor Browser with Raspberry's architecture (ARM), **one possible alternative is to install Mozilla Firefox (ERS) and drastically renforced its security**. The following open-source add-on has been added : <a href="https://addons.mozilla.org/fr/firefox/addon/ublock-origin/">uBlock Origin</a>, <a href="https://www.eff.org/privacybadger">Privacy Badger</a>, <a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a>, <a href="https://addons.mozilla.org/fr/firefox/addon/cookie-autodelete/">Cookie Autodelete</a>, <a href="https://decentraleyes.org/">Decentralised</a> and <a href="https://addons.mozilla.org/fr/firefox/addon/noscript/">Noscript</a>.
+
+To use Firefox over TOR, you need to set up a proxy in *Connection setting* : 
+`SOCKS Host : 127.0.0.1`, `Port : 9050`, `SOCKS v5` and activate `Remote DNS`
+
+Regarding fingerprint protection, you'll have to configure `about:config` by your own, depending on the level of protection you need. Remember that theses modifications might break some websites and prevent them to load correctly.
+
+Here are some usefull ressources to help you :
+
+https://github.com/pyllyukko/user.js
+
+https://spyware.neocities.org/guides/firefox.html
+
+http://kb.mozillazine.org/Category:Security_and_privacy-related_preferences
+
+Warning ! Fingerprint tracking techniques are very complex and new ones continue to be developped, <a href="https://arstechnica.com/information-technology/2017/02/now-sites-can-fingerprint-you-online-even-when-you-use-multiple-browsers/">as this example clearly illustrate </a>. You have to keep in mind that :
+- The fact of non-giving a information (ex: disable `DOM storage`) can also be a information.
+- The more you modified your browser, the more you will stick out from the masse
+- Your browser value will remain fixed
 
 # Hardware
 Here is a example of the hardware that I've used. Feel free to choose them according to your specific needs (dimension, more powerfull equipment...):
