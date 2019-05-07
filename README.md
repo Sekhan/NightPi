@@ -65,12 +65,12 @@ https://github.com/pyllyukko/user.js,
 https://spyware.neocities.org/guides/firefox.html and
 http://kb.mozillazine.org/Category:Security_and_privacy-related_preferences
 
-Warning ! Fingerprint tracking techniques are very complex and new ones continue to be developped, <a href="https://arstechnica.com/information-technology/2017/02/now-sites-can-fingerprint-you-online-even-when-you-use-multiple-browsers/">as this example clearly illustrate</a> . You have to keep in mind that :
+Warning ! Fingerprint tracking techniques are very complex and new ones continue to be developped, <a href="https://arstechnica.com/information-technology/2017/02/now-sites-can-fingerprint-you-online-even-when-you-use-multiple-browsers/">as this example clearly illustrate</a>. You have to keep in mind that :
 - The fact of non-giving a information (ex: disable `DOM storage`) can also be a information.
 - The more you modified your browser, the more you will stick out from the masse
 - Your browser value will remain fixed
 
-(4) **By default, your browser trust 100 % of Certificate Authorities (CAs)**, which is <a href="https://blog.torproject.org/life-without-ca">a bad security practice</a> ! In addition to the risk of a MIMT ("Man In The Middle"), <a href="https://www.eff.org/deeplinks/2019/02/cyber-mercenary-groups-shouldnt-be-trusted-your-browser-or-anywhere-else">some shady companies are also seeking to become a top-level CA</a>.
+(4) **By default, your browser trust 100 % of Certificate Authorities (CAs)**, which is <a href="https://blog.torproject.org/life-without-ca">a bad security practice</a> ! In addition to the risk of a MIMT ("Man In The Middle"), <a href="https://www.eff.org/deeplinks/2019/02/cyber-mercenary-groups-shouldnt-be-trusted-your-browser-or-anywhere-else">some shady companies are also seeking to be approved as a top-level CA</a>.
 
 # Further improvements
 - [ ] More powerfull computer (Raspberry Pi alternative ?)
