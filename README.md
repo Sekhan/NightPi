@@ -1,5 +1,5 @@
 # NightPI
-Based on a Raspberry Pi 3B+ with Kali Linux installed, the "NightPi" is a briefcase that has been specially designed to learn and perform penetration testing, investigation (OSINT) and radio.
+Based on a Raspberry Pi 3B+ with <a href="https://docs.kali.org/introduction/what-is-kali-linux">Kali Linux </a> installed, the "NightPi" is a briefcase that has been specially designed to learn and perform penetration testing, investigation (OSINT) and radio.
 This repository contain all usefull explanation about how to make one, so don't hesitate to build for yourself this usefull tool and improve it :D
 
 # Hardware
@@ -13,12 +13,7 @@ Here is the hardware that I've used. Feel free to choose them according to your 
 
 **Cost estimated :** around 500 $
 
-
-# Features
-In order to be rapidly deployable, some features has been added :
-- Offline database with documentation of many programs
-- Extra open-source tools installed (OSINT, SDR, etc)
-- High security browser (protection against fingerprint + TOR proxy)
+<p align="center"><img src="https://github.com/Sekhan/NightPI/blob/master/Features.jpg" alt="Features" height="280px">
 
 ## Offline database
 <img src="https://github.com/Sekhan/NightPI/blob/master/HTTrack.jpg" alt="Offline Database" align="right" height="220px">
@@ -53,26 +48,26 @@ Some interesting tools to perform OSINT and radio exploration has been added :
 ## Enhanced security browser
 Due to incompatibility of Tor Browser with Raspberry's architecture (ARM), **one possible alternative is to install Mozilla Firefox (ERS) and drastically renforced its security**. 
 
-(1) These **open-source add-on** has been added : <a href="https://addons.mozilla.org/fr/firefox/addon/ublock-origin/">uBlock Origin</a>, <a href="https://www.eff.org/privacybadger">Privacy Badger</a>, <a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a>, <a href="https://addons.mozilla.org/fr/firefox/addon/cookie-autodelete/">Cookie Autodelete</a>, <a href="https://decentraleyes.org/">Decentralised</a> and <a href="https://addons.mozilla.org/fr/firefox/addon/noscript/">Noscript</a>.
+> (1) These **open-source add-on** has been added : <a href="https://addons.mozilla.org/fr/firefox/addon/ublock-origin/">uBlock Origin</a>, <a href="https://www.eff.org/privacybadger">Privacy Badger</a>, <a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a>, <a href="https://addons.mozilla.org/fr/firefox/addon/cookie-autodelete/">Cookie Autodelete</a>, <a href="https://decentraleyes.org/">Decentralised</a> and <a href="https://addons.mozilla.org/fr/firefox/addon/noscript/">Noscript</a>.
 
-(2) To use **Firefox over TOR**, you need to set up a proxy in *Connection setting* : 
+> (2) To use **Firefox over TOR**, you need to set up a proxy in *Connection setting* : 
 `SOCKS Host : 127.0.0.1`, `Port : 9050`, `SOCKS v5` and activate `Remote DNS`
 
-(3) Regarding **fingerprint protection**, you'll have to configure `about:config` by your own, depending on the level of protection you need. Remember that theses modifications might break some websites and prevent them to load correctly.
+> (3) Regarding **fingerprint protection**, you'll have to configure `about:config` by your own, depending on the level of protection you need. Remember that theses modifications might break some websites and prevent them to load correctly.
 
-Here are some usefull ressources to help you :
+> Here are some usefull ressources to help you :
 https://github.com/pyllyukko/user.js,
 https://spyware.neocities.org/guides/firefox.html and
 http://kb.mozillazine.org/Category:Security_and_privacy-related_preferences
 
-Warning ! Fingerprint tracking techniques are very complex and new ones continue to be developped, <a href="https://arstechnica.com/information-technology/2017/02/now-sites-can-fingerprint-you-online-even-when-you-use-multiple-browsers/">as this example clearly illustrate</a>. You have to keep in mind that :
-- The fact of non-giving a information (ex: disable `DOM storage`) can also be a information.
-- The more you modified your browser, the more you will stick out from the masse
-- Your browser value will remain fixed
+> Warning ! Fingerprint tracking techniques are very complex and new ones continue to be developped, <a href="https://arstechnica.com/information-technology/2017/02/now-sites-can-fingerprint-you-online-even-when-you-use-multiple-browsers/">as this example clearly illustrate</a>. You have to keep in mind that :
+> - The fact of non-giving a information (ex: disable `DOM storage`) can also be a information.
+> - The more you modified your browser, the more you will stick out from the masse
+> - Your browser value will remain fixed
 
-(4) **By default, your browser trust 100 % of Certificate Authorities (CAs)**, which is <a href="https://blog.torproject.org/life-without-ca">a bad security practice</a> ! In addition to the risk of a MIMT ("Man In The Middle"), <a href="https://www.eff.org/deeplinks/2019/02/cyber-mercenary-groups-shouldnt-be-trusted-your-browser-or-anywhere-else">some shady companies are also seeking to be approved as a top-level CA</a>.
+> (4) **By default, your browser trust 100 % of Certificate Authorities (CAs)**, which is <a href="https://blog.torproject.org/life-without-ca">a bad security practice</a> ! In addition to the risk of a MIMT ("Man In The Middle"), <a href="https://www.eff.org/deeplinks/2019/02/cyber-mercenary-groups-shouldnt-be-trusted-your-browser-or-anywhere-else">some shady companies are also seeking to be approved as a top-level CA</a>.
 
 # Further improvements
-- [ ] More powerfull computer (Raspberry Pi alternative ?)
+- [ ] More powerfull computer
 - [ ] Better range for WIFI and radio
 - [ ] Full-disk encryption
