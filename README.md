@@ -3,21 +3,10 @@ Based on a Raspberry Pi 3B+ with <a href="https://docs.kali.org/introduction/wha
 
 This repository contain usefull informations about how to make one, so don't hesitate to build this tool and improve it :D
 
-# Hardware
-
-Here is the hardware that I've used. Feel free to choose them according to your specific needs (dimensions, more powerfull equipments...):
-
-| **Raspberry Pi 3B+** | **64GB SD Card** | **Wired keyboard** | **External Hard Drive** | **Portable screen** |
-| :---: | :---: | :---: | :---: | :---: |
-|**RFID RC 522** | **RTL-SDR** | **Wireless module** | **Battery** | **USB cable** |
-| **Powered USB hub** | **Fans** |  **Briefcase** | **Foldable headphone** | **Jack cable** |
-
-**Cost estimated :** around 500 $
-
-<p align="center"><img src="https://github.com/Sekhan/NightPI/blob/master/Features.jpg" alt="Features" height="280px">
+<p align="center"><img src="https://github.com/Sekhan/NightPI/blob/master/Features.jpg" alt="Features" height="260px">
 
 ## Offline database
-<img src="https://github.com/Sekhan/NightPI/blob/master/HTTrack.png" alt="Offline Database" align="right" height="250px">
+<img src="https://github.com/Sekhan/NightPI/blob/master/HTTrack.png" alt="Offline Database" align="right" height="300px">
 
 While Kali Linux come with a incredible amount of software, if you want to learn how to use them, you'll need to rely on a internet connection and search for each documentation separately. **Centralizing all these usefull informations in one database by using a open source software like HTTrack is way more convenient :)**
 
@@ -56,17 +45,27 @@ Due to incompatibility of Tor Browser with Raspberry's architecture (ARM), **one
 
 > (3) Regarding **fingerprint protection**, you'll have to configure `about:config` by your own, depending on the level of protection you need. Remember that theses modifications might break some websites and prevent them to load correctly.
 
-> Here are some usefull ressources to help you :
+>> Here are some usefull ressources to help you :
 https://github.com/pyllyukko/user.js,
 https://spyware.neocities.org/guides/firefox.html and
 http://kb.mozillazine.org/Category:Security_and_privacy-related_preferences
 
-> Warning ! Fingerprint tracking techniques are very complex and new ones continue to be developped, <a href="https://arstechnica.com/information-technology/2017/02/now-sites-can-fingerprint-you-online-even-when-you-use-multiple-browsers/">as this example clearly illustrate</a>. You have to keep in mind that :
-> - The fact of non-giving a information (ex: disable `DOM storage`) can also be a information.
-> - The more you modified your browser, the more you will stick out from the masse
-> - Your browser value will remain fixed
+>> Warning ! Fingerprint tracking techniques are very complex and new ones continue to be developped, <a href="https://arstechnica.com/information-technology/2017/02/now-sites-can-fingerprint-you-online-even-when-you-use-multiple-browsers/">as this example clearly illustrate</a>. You have to keep in mind that :
+>> - The fact of non-giving a information (ex: disable `DOM storage`) can also be a information.
+>> - The more you modified your browser, the more you will stick out from the masse
+>> - Your browser value will remain fixed
 
 > (4) **By default, your browser trust 100 % of Certificate Authorities (CAs)**, which is <a href="https://blog.torproject.org/life-without-ca">a bad security practice</a> ! In addition to the risk of a MIMT ("Man In The Middle"), <a href="https://www.eff.org/deeplinks/2019/02/cyber-mercenary-groups-shouldnt-be-trusted-your-browser-or-anywhere-else">some shady companies are also seeking to be approved as a top-level CA</a>.
+
+# Hardware
+Here is the hardware that I've used. Feel free to choose them according to your specific needs (dimensions, more powerfull equipments...).
+
+| **Raspberry Pi 3B+** | **64GB SD Card** | **Wired keyboard** | **External Hard Drive** | **Portable screen** |
+| :---: | :---: | :---: | :---: | :---: |
+|**RFID RC 522** | **RTL-SDR** | **Wireless module** | **Battery** | **USB cable** |
+| **Powered USB hub** | **Fans** |  **Briefcase** | **Foldable headphone** | **Jack cable** |
+
+**Cost estimated :** around 500 $
 
 # Further improvements
 - [ ] More powerfull computer
