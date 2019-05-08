@@ -8,8 +8,8 @@ Here is the hardware that I've used. Feel free to choose them according to your 
 
 | **Raspberry Pi 3B+** | **64GB SD Card** | **Wired keyboard** | **External Hard Drive** | **Portable screen** |
 | :---: | :---: | :---: | :---: | :---: |
-|**RFID RC 522** | **RTL-SDR** | **Wireless module** | **Battery** | **USB/Jack cable** |
-| **Powered USB hub** | **Fans** |  **Briefcase** | **Foldable headphone** |
+|**RFID RC 522** | **RTL-SDR** | **Wireless module** | **Battery** | **USB cable** |
+| **Powered USB hub** | **Fans** |  **Briefcase** | **Foldable headphone** | **Jack cable** |
 
 **Cost estimated :** around 500 $
 
@@ -17,16 +17,16 @@ Here is the hardware that I've used. Feel free to choose them according to your 
 # Features
 In order to be rapidly deployable, some features has been added :
 - Offline database with documentation of many programs
-- High security browser (protection against fingerprint + TOR proxy)
 - Extra open-source tools installed (OSINT, SDR, etc)
+- High security browser (protection against fingerprint + TOR proxy)
 
 ## Offline database
 <img src="https://github.com/Sekhan/NightPI/blob/master/HTTrack.jpg" alt="Offline Database" align="right" height="220px">
 
-While Kali Linux come with a incredible amount of software, the issue is that if you want to learn how to use them, you'll need to rely on a internet connection and search for each documentation separately. **Centralizing all these usefull informations in one database by using a open source software like HTTrack is way more convenient :)**
+While Kali Linux come with a incredible amount of software, if you want to learn how to use them, you'll need to rely on a internet connection and search for each documentation separately. **Centralizing all these usefull informations in one database by using a open source software like HTTrack is way more convenient :)**
 
-Depending on each site, you may have to change some parameters. 
-**Here is what I've modified in the option panel :**
+For each site, you may have to change some parameters (especially in `limits` panel, depending on the structure of the website). 
+**Here is the general options that you can apply :**
 
 - *Scan rules* (to prevent to download unwanted files) :
 `+*.png +*.gif +*.jpg +*.jpeg
@@ -53,7 +53,7 @@ Some interesting tools to perform OSINT and radio exploration has been added :
 ## Enhanced security browser
 Due to incompatibility of Tor Browser with Raspberry's architecture (ARM), **one possible alternative is to install Mozilla Firefox (ERS) and drastically renforced its security**. 
 
-(1) The following **open-source add-on** has been added : <a href="https://addons.mozilla.org/fr/firefox/addon/ublock-origin/">uBlock Origin</a>, <a href="https://www.eff.org/privacybadger">Privacy Badger</a>, <a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a>, <a href="https://addons.mozilla.org/fr/firefox/addon/cookie-autodelete/">Cookie Autodelete</a>, <a href="https://decentraleyes.org/">Decentralised</a> and <a href="https://addons.mozilla.org/fr/firefox/addon/noscript/">Noscript</a>.
+(1) These **open-source add-on** has been added : <a href="https://addons.mozilla.org/fr/firefox/addon/ublock-origin/">uBlock Origin</a>, <a href="https://www.eff.org/privacybadger">Privacy Badger</a>, <a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a>, <a href="https://addons.mozilla.org/fr/firefox/addon/cookie-autodelete/">Cookie Autodelete</a>, <a href="https://decentraleyes.org/">Decentralised</a> and <a href="https://addons.mozilla.org/fr/firefox/addon/noscript/">Noscript</a>.
 
 (2) To use **Firefox over TOR**, you need to set up a proxy in *Connection setting* : 
 `SOCKS Host : 127.0.0.1`, `Port : 9050`, `SOCKS v5` and activate `Remote DNS`
