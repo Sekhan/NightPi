@@ -1,6 +1,7 @@
 # NightPI
-Based on a Raspberry Pi 3B+ with <a href="https://docs.kali.org/introduction/what-is-kali-linux">Kali Linux </a> installed, the "NightPi" is a briefcase that has been specially designed to learn and perform penetration testing, investigation (OSINT) and radio.
-This repository contain all usefull explanation about how to make one, so don't hesitate to build for yourself this usefull tool and improve it :D
+Based on a Raspberry Pi 3B+ with <a href="https://docs.kali.org/introduction/what-is-kali-linux">Kali Linux </a> installed, the "NightPi" is a briefcase that has been designed to learn and perform penetration testing, investigation (OSINT) and radio.
+
+This repository contain usefull informations about how to make one, so don't hesitate to build this tool and improve it :D
 
 # Hardware
 
@@ -16,7 +17,7 @@ Here is the hardware that I've used. Feel free to choose them according to your 
 <p align="center"><img src="https://github.com/Sekhan/NightPI/blob/master/Features.jpg" alt="Features" height="280px">
 
 ## Offline database
-<img src="https://github.com/Sekhan/NightPI/blob/master/HTTrack.jpg" alt="Offline Database" align="right" height="220px">
+<img src="https://github.com/Sekhan/NightPI/blob/master/HTTrack.png" alt="Offline Database" align="right" height="250px">
 
 While Kali Linux come with a incredible amount of software, if you want to learn how to use them, you'll need to rely on a internet connection and search for each documentation separately. **Centralizing all these usefull informations in one database by using a open source software like HTTrack is way more convenient :)**
 
