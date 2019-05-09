@@ -3,7 +3,7 @@ Based on a Raspberry Pi 3B+ with <a href="https://docs.kali.org/introduction/wha
 
 This repository contain usefull informations about how to make one, so don't hesitate to build this tool and improve it :D
 
-<p align="center"><img src="https://github.com/Sekhan/NightPI/blob/master/Features.jpg" alt="Features" height="260px">
+<p align="center"><img src="https://github.com/Sekhan/NightPI/blob/master/Features.jpg" alt="Features" height="240px">
 
 ## Offline database
 <img src="https://github.com/Sekhan/NightPI/blob/master/HTTrack.png" alt="Offline Database" align="right" height="300px">
@@ -35,12 +35,14 @@ Some interesting tools to perform OSINT and radio exploration has been added :
 - <a href="https://github.com/ggerganov/kbd-audio">Keytap </a> => Theses experimental tools can be used for analyzing mechanical keyboard input with microphone capture in order to predict the content of a written text.
 - <a href="https://github.com/exiftool/exiftool">Exiftool </a> => A command-line tool that is used to analyze, modify and erase metadata in a wide variety of file (supported format include JPEG, PNG, DOC, MP4...).
 
+Even if I wasn't able to install it, you might also have a look at <a href="https://github.com/martinmarinov/TempestSDR">this last program</a>. **Based on TEMPEST attack, <a href="https://cryptome.org/nsa-tempest.pdf">a technic discovered by the National Security Agency in the 70's</a>, this tool allow you to eavesdrop unintentional electromagnetic emanations** that come from cables carrying video signals and converted back into a live image of what is displayed on the screen.
+
 ## Enhanced security browser
 Due to incompatibility of Tor Browser with Raspberry's architecture (ARM), **one possible alternative is to install Mozilla Firefox (ERS) and drastically renforced its security**. 
 
 > (1) These **open-source add-on** has been added : <a href="https://addons.mozilla.org/fr/firefox/addon/ublock-origin/">uBlock Origin</a>, <a href="https://www.eff.org/privacybadger">Privacy Badger</a>, <a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a>, <a href="https://addons.mozilla.org/fr/firefox/addon/cookie-autodelete/">Cookie Autodelete</a>, <a href="https://decentraleyes.org/">Decentralised</a> and <a href="https://addons.mozilla.org/fr/firefox/addon/noscript/">Noscript</a>.
 
-> (2) To use **Firefox over TOR**, you need to set up a proxy in *Connection setting* : 
+> (2) To use **Firefox over TOR**, you need to install it and set up a proxy in *Connection setting* : 
 `SOCKS Host : 127.0.0.1`, `Port : 9050`, `SOCKS v5` and activate `Remote DNS`
 
 > (3) Regarding **fingerprint protection**, you'll have to configure `about:config` by your own, depending on the level of protection you need. Remember that theses modifications might break some websites and prevent them to load correctly.
@@ -55,7 +57,7 @@ http://kb.mozillazine.org/Category:Security_and_privacy-related_preferences
 >> - The more you modified your browser, the more you will stick out from the masse
 >> - Your browser value will remain fixed
 
-> (4) **By default, your browser trust 100 % of Certificate Authorities (CAs)**, which is <a href="https://blog.torproject.org/life-without-ca">a bad security practice</a> ! In addition to the risk of a MIMT ("Man In The Middle"), <a href="https://www.eff.org/deeplinks/2019/02/cyber-mercenary-groups-shouldnt-be-trusted-your-browser-or-anywhere-else">some shady companies are also seeking to be approved as a top-level CA</a>.
+> (4) **By default, your browser trust 100 % of Certificate Authorities (CAs)**, which is <a href="https://blog.torproject.org/life-without-ca">a bad security practice</a> ! In addition to <a href="https://www.eff.org/deeplinks/2011/05/syrian-man-middle-against-facebook">the risk of a MIMT</a> ("Man In The Middle")</a>, <a href="https://www.eff.org/deeplinks/2019/02/cyber-mercenary-groups-shouldnt-be-trusted-your-browser-or-anywhere-else">some shady companies are also seeking to be approved as a top-level CA</a>.
 
 # Hardware
 Here is the hardware that I've used. Feel free to choose them according to your specific needs (dimensions, more powerfull equipments...).
