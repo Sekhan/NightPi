@@ -66,7 +66,13 @@ Here is the hardware that I've used. Feel free to choose them according to your 
 
 **Cost estimated :** around 500 $
 
-# Further improvements
-- [ ] More powerfull computer
-- [ ] Better range for WIFI and radio
+If you're interested about making one, yon can find here some tips :
+- **Try to privilege full-aluminium briefcase** instead of a plastic/aluminium mix (which, in addition, are often made with cardboard inside). It will probably be a bit more expensive, but more resistant and easier to work on.
+- **Avoid using low-quality fixer like glue or nails**, prefer screws and nuts. Keep in mind that, in there is something to fix, you'll prefer to be able to easily disassembled it and work on it.
+- **Check the voltage/amperage of your hardware, they will have a impact on your battery size !**
+- **Draw a plan of the inside, including all component's size**. It is very important to make sure that you have enough space before buying everything, because you'll probably need more than expecte.
+
+# Further improvements 
 - [ ] Full-disk encryption
+- [ ] Better range for WIFI and radio
+- [ ] Extented battery life
