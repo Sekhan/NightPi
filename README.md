@@ -1,12 +1,14 @@
-## NightPI
+# NightPI
+<img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/Front.jpg" alt="Front" align="right" height="369px">
+
 Based on a Raspberry Pi 3B+ with <a href="https://docs.kali.org/introduction/what-is-kali-linux">Kali Linux </a> installed, the "NightPi" is a briefcase that has been designed to learn and perform penetration testing, investigation (OSINT) and radio exploration :squirrel:
 
-<p align="center"> This repository contain usefull informations about how to make one, so don't hesitate to build this tool and improve it :wink:
+This repository contain usefull informations about how to make one, so don't hesitate to build this tool and improve it :wink:
 
-<p align="center"><img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/Features.jpg" alt="Features" height="240px">
+<p align="center"><img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/Features.jpg" alt="Features" height="217px">
 
 ## Offline database
-<img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/HTTrack.png" alt="Offline Database" align="right" height="300px">
+<img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/HTTrack.png" alt="Offline Database" align="left" height="300px">
 
 While Kali Linux come with a incredible amount of software, if you want to learn how to use them, you'll need to rely on a internet connection and search for each documentation separately. **Centralizing all these usefull informations in one database by using a open source software like HTTrack is way more convenient :)**
 
@@ -56,15 +58,13 @@ Due to incompatibility of Tor Browser with Raspberry's architecture (ARM), **one
 
 > (4) **By default, your browser trust 100 % of Certificate Authorities (CAs)**, which is <a href="https://blog.torproject.org/life-without-ca">a bad security practice</a> ! In addition to <a href="https://www.eff.org/deeplinks/2011/05/syrian-man-middle-against-facebook">the risk of a MIMT</a> ("Man In The Middle")</a>, <a href="https://www.eff.org/deeplinks/2019/02/cyber-mercenary-groups-shouldnt-be-trusted-your-browser-or-anywhere-else">some shady companies are also seeking to be approved as a top-level CA</a>. <a href="http://patrol.psyced.org/">This extension</a> might help you to trust only a restricted number of CAs.
 
-# Hardware
-Here is the hardware that I've used. Feel free to choose them according to your needs (dimension, powerfull equipment...).
+## Hardware
+Here is the hardware that I've used. Feel free to choose them according to your needs (dimension, powerfull equipment...). **Cost estimated :** around 500 $
 
 | **Raspberry Pi 3B+** | **64GB SD Card** | **Wired keyboard** | **External Hard Drive** | **Portable screen** |
 | :---: | :---: | :---: | :---: | :---: |
 |**RFID RC 522** | **RTL-SDR** | **Wireless module** | **Battery** | **USB cable** |
 | **Powered USB hub** | **Fans** |  **Briefcase** | **Foldable headphone** | **Jack cable** |
-
-**Cost estimated :** around 500 $
 
 <p align="center"><img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/InsideF.jpg" alt="Inside" height="420px">
 
