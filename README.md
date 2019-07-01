@@ -10,10 +10,9 @@ This repository contain usefull informations about how to make one, so don't hes
   <img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/Side.jpg" width="285" /> 
 </p>
 
-<p align="center">In order to be quickly deployable, some features have been added to Kali
-<p align="center"><img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/Features.jpg" alt="Features" height="217px">
-
 ### Offline database
+
+<img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/Features.jpg" alt="Features" align="right" height="230px">
 
 While Kali Linux come with a incredible amount of software, if you want to learn how to use them, you'll need to rely on a internet connection and search for each documentation separately. **Centralizing all these usefull informations in one database by using a open source software like HTTrack is way more convenient :)**
 
