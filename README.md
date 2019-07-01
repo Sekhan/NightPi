@@ -1,13 +1,16 @@
 # NightPI
-<img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/Front.jpg" alt="Front" align="right" height="369px">
+<img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/Front.jpg" alt="Front" align="right" height="331px">
 
 Based on a Raspberry Pi 3B+ with <a href="https://docs.kali.org/introduction/what-is-kali-linux">Kali Linux </a> installed, the "NightPi" is a briefcase that has been designed to learn and perform penetration testing, investigation (OSINT) and radio exploration :squirrel:
 
 This repository contain usefull informations about how to make one, so don't hesitate to build this tool and improve it :wink:
 
-<p align="center"><img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/Features.jpg" alt="Features" height="217px">
+<p float="left">
+  <img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/Briefcase.jpg" width="285" />
+  <img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/Side.jpg" width="285" /> 
+</p>
 
-## Offline database
+### Offline database
 <img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/HTTrack.png" alt="Offline Database" align="left" height="300px">
 
 While Kali Linux come with a incredible amount of software, if you want to learn how to use them, you'll need to rely on a internet connection and search for each documentation separately. **Centralizing all these usefull informations in one database by using a open source software like HTTrack is way more convenient :)**
@@ -28,7 +31,7 @@ and `Get HTML files first`
 
 To learn how to use it, I strongly recommand to have a look on the website : https://www.httrack.com/html/index.html
 
-## Extra tools
+### Extra tools
 Some interesting tools to perform OSINT and radio exploration has been added :
 - <a href="https://github.com/TheYahya/sherlock">Sherlock </a> => A command-line tool that is used to scan many social network (like Facebook, Twitter, Tinder...) to find a user's account. All requests can be made over TOR.
 - <a href="https://github.com/csete/gqrx">GQRX </a> => A software-defined radio that allow you to demodulate AM, FM and SSB and is compatible with many hardware (RTL-SDR, HackRF, BladeFR...).
@@ -39,7 +42,7 @@ Some interesting tools to perform OSINT and radio exploration has been added :
 
 Even if I wasn't able to install it, you might also have a look at <a href="https://github.com/martinmarinov/TempestSDR">this last program</a>. **Based on TEMPEST attack, <a href="https://cryptome.org/nsa-tempest.pdf">a technic discovered by the National Security Agency in the 70's</a>, this tool allow you to eavesdrop unintentional electromagnetic emanations** that come from cables carrying video signals and converted back into a live image of what is displayed on the screen.
 
-## Enhanced security browser
+### Enhanced security browser
 Due to incompatibility of Tor Browser with Raspberry's architecture (ARM), **one possible alternative is to install Mozilla Firefox (ERS) and drastically renforced its security**. 
 
 > (1) These **open-source add-on** has been added : <a href="https://addons.mozilla.org/fr/firefox/addon/ublock-origin/">uBlock Origin</a>, <a href="https://www.eff.org/privacybadger">Privacy Badger</a>, <a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a>, <a href="https://addons.mozilla.org/fr/firefox/addon/cookie-autodelete/">Cookie Autodelete</a>, <a href="https://decentraleyes.org/">Decentralised</a> and <a href="https://addons.mozilla.org/fr/firefox/addon/noscript/">Noscript</a>.
@@ -74,7 +77,7 @@ If you're interested about making one, here are some tips :
 - **Check the voltage/amperage of your hardware, they will have a impact on your battery size !**
 - **Draw a plan of the inside, including all component's size**. It is very important to make sure that you have enough space before buying everything, because you'll probably need more than expected.
 
-# Further improvements 
+## Further improvements 
 - [ ] Full-disk encryption
 - [ ] Better range for WIFI and radio
 - [ ] Extented battery life
