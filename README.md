@@ -3,10 +3,10 @@ Based on a Raspberry Pi 3B+ with <a href="https://docs.kali.org/introduction/wha
 
 <p align="center"> This repository contain usefull informations about how to make one, so don't hesitate to build this tool and improve it :wink:
 
-<p align="center"><img src="https://github.com/Sekhan/NightPI/blob/master/Features.jpg" alt="Features" height="240px">
+<p align="center"><img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/Features.jpg" alt="Features" height="240px">
 
 ## Offline database
-<img src="https://github.com/Sekhan/NightPI/blob/master/HTTrack.png" alt="Offline Database" align="right" height="300px">
+<img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/HTTrack.png" alt="Offline Database" align="right" height="300px">
 
 While Kali Linux come with a incredible amount of software, if you want to learn how to use them, you'll need to rely on a internet connection and search for each documentation separately. **Centralizing all these usefull informations in one database by using a open source software like HTTrack is way more convenient :)**
 
@@ -50,7 +50,7 @@ Due to incompatibility of Tor Browser with Raspberry's architecture (ARM), **one
 >> :wrench: Here are <a href="https://github.com/pyllyukko/user.js">some</a> <a href="https://spyware.neocities.org/guides/firefox.html">usefull</a> <a href="http://kb.mozillazine.org/Category:Security_and_privacy-related_preferences">ressources</a> for creating your own settings. Don't hesitate to also use <a href="https://panopticlick.eff.org/">theses</a> <a href="https://browserleaks.com/">tools</a> to test your browser security/fingerprint !
 
 >> :warning: **Fingerprint tracking techniques are very complex** and new ones continue to be developped, <a href="https://arstechnica.com/information-technology/2017/02/now-sites-can-fingerprint-you-online-even-when-you-use-multiple-browsers/">as this example clearly illustrate</a>. **You have to keep in mind that :**
->> - The fact of non-giving a information (ex: disable `DOM storage`) can also be a information.
+>> - The fact of non-giving a information (ex: disable `media.navigator.enabled`) can also be a information.
 >> - The more you modified your browser, the more you will stick out from the masse
 >> - Your browser value will remain fixed
 
@@ -66,11 +66,13 @@ Here is the hardware that I've used. Feel free to choose them according to your 
 
 **Cost estimated :** around 500 $
 
-If you're interested about making one, yon can find here some tips :
+<p align="center"><img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/InsideF.jpg" alt="Inside" height="420px">
+
+If you're interested about making one, here are some tips :
 - **Try to privilege full-aluminium briefcase** instead of a plastic/aluminium mix (which, in addition, are often made with cardboard inside). It will probably be a bit more expensive, but more resistant and easier to work on.
 - **Avoid using low-quality fixer like glue or nails**, prefer screws and nuts. Keep in mind that, in there is something to fix, you'll prefer to be able to easily disassembled it and work on it.
 - **Check the voltage/amperage of your hardware, they will have a impact on your battery size !**
-- **Draw a plan of the inside, including all component's size**. It is very important to make sure that you have enough space before buying everything, because you'll probably need more than expecte.
+- **Draw a plan of the inside, including all component's size**. It is very important to make sure that you have enough space before buying everything, because you'll probably need more than expected.
 
 # Further improvements 
 - [ ] Full-disk encryption
