@@ -1,4 +1,5 @@
-# NightPI
+<h3 align="center"><img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/Title.jpg" alt="Title" height="70px"></h3>
+
 <img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/Front.jpg" alt="Front" align="right" height="331px">
 
 Based on a Raspberry Pi 3B+ with <a href="https://docs.kali.org/introduction/what-is-kali-linux">Kali Linux </a> installed, the "NightPi" is a briefcase that has been designed to learn and perform penetration testing, investigation (OSINT) and radio exploration.
@@ -12,7 +13,7 @@ This repository contain usefull informations about how to make one, so don't hes
 
 ### Offline database
 
-<img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/Features.jpg" alt="Features" align="right" height="230px">
+<img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/Features.jpg" alt="Features" align="right" height="215px">
 
 While Kali Linux come with a incredible amount of software, if you want to learn how to use them, you'll need to rely on a internet connection and search for each documentation separately. **Centralizing all these usefull informations in one database by using a open source software like HTTrack is way more convenient :)**
 
@@ -72,13 +73,14 @@ Here is the hardware that I've used. Feel free to choose them according to your 
 
 <p align="center"><img src="https://github.com/Sekhan/NightPI/blob/master/Pictures/InsideF.jpg" alt="Inside" height="420px">
 
-If you're interested about making one, here are some tips :
+<p align="center">If you're interested about making one, here are some tips :
+
 - **Try to privilege full-aluminium briefcase** instead of a plastic/aluminium mix (which, in addition, are often made with cardboard inside). It will probably be a bit more expensive, but more resistant and easier to work on.
 - **Avoid using low-quality fixer like glue or nails**, prefer screws and nuts. Keep in mind that, in there is something to fix, you'll prefer to be able to easily disassembled it and work on it.
 - **Check the voltage/amperage of your hardware, they will have a impact on your battery size !**
 - **Draw a plan of the inside, including all component's size**. It is very important to make sure that you have enough space before buying everything, because you'll probably need more than expected.
 
-## Further improvements 
+## Further improvements
+- [ ] Battery-capacity monitoring
 - [ ] Full-disk encryption
 - [ ] Better range for WIFI and radio
-- [ ] Extented battery life
